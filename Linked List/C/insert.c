@@ -58,7 +58,7 @@ void insert(struct NODE *node,int position){
 void create(struct NODE *node,int nodes){
     for(int i=0;i<nodes;i++){
         printf("Enter data for Node %d:",i+1);
-        scanf("%d",&node->info);
+        scanf("%d",&node->info);\\donbe
         if(i==nodes-1)
             node->next = NULL;
         else{
