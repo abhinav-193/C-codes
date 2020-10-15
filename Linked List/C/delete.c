@@ -14,7 +14,7 @@ void searchDelete(struct NODE *node,int data){
     while(node!=NULL){
         if(node->info==data){
             delete(head,k);
-            found=1;
+            found=1; \\found 1
             break;
         }
         node = node->next;
